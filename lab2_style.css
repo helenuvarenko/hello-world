@@ -1,0 +1,153 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven {
+        border: 1px solid #534139;
+        padding: 2px;
+        box-sizing: border-box;
+    }
+    
+    .row1 {
+        display: flex;
+        height: 40vh;
+    }
+    
+    .row2 {
+        display: flex;
+        height: 40vh;
+    }
+    
+    .middle3 {
+        display: flex;
+        height: 20vh;
+    }
+    
+    .row3 {
+        display: flex;
+        height: 20vh;
+    }
+    
+    .one {
+        background: #c2e2e1;
+        flex-basis: 100%;
+    }
+    
+    .two {
+        width: 480px;
+        background: #9ec9d2;
+    }
+    
+    .middle2 {
+        height: 40vh;
+        flex-basis: 50%;
+    }
+    
+    .three {
+        flex-basis: 100%;
+        background: #f3e0b6;
+        height: 50%;
+    }
+    
+    .four {
+        width: 480px;
+        background: #c2ae9e;
+    }
+    
+    .five {
+        flex-basis: 50%;
+        background: #66abda;
+    }
+    
+    .six {
+        flex-basis: 50%;
+        background: #8a96a2;
+    }
+    
+    .seven {
+        flex-basis: 100%;
+        background: #7b9694;
+    }
+    
+    .row1,
+    .row2,
+    .row3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    @media screen and (max-width: 1280px) {
+        .row2,
+        .row3,
+        .middle2 {
+            height: auto;
+        }
+        .middle3 {
+            height: auto;
+        }
+    }
+    
+    @media screen and (max-width: 850px) {
+        .row1,
+        .row2,
+        .one,
+        .two,
+        .middle2,
+        .middle3,
+        .three,
+        .four,
+        .five,
+        .six,
+        .seven {
+            display: list-item;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            flex-wrap: wrap;
+            -moz-flex-direction: column;
+            -ms-flex-direction: column;
+        }
+        .row1 {
+            height: auto;
+        }
+        .row2 {
+            height: inherit;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .row1,
+        .row2,
+        .row3,
+        .one,
+        .two,
+        .middle2,
+        .middle3,
+        .three,
+        .four,
+        .five,
+        .six,
+        .seven {
+            display: list-item;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            flex-wrap: wrap;
+            -moz-flex-direction: column;
+            -ms-flex-direction: column;
+        }
+        .row1 {
+            height: auto;
+        }
+        .row2 {
+            height: inherit;
+        }
+    }
