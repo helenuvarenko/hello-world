@@ -1,0 +1,9 @@
+language: generic
+deploy:
+  provider: s3
+  access_key_id: AKIAJ66EB7VWXWJEUBMA
+  secret_access_key: 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
+  bucket: uvarenko-web-programming
+  on:
+    repo: helenuvarenko/hello-world
+  acl: public_read
