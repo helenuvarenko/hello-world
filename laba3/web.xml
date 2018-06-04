@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aims>
+<aim>
+<name> Start </name>
+<description> Bи можете відкрити вже існуючий проект, створити новий, створити нову збірку тощо. Також ви маєте список доступних нещодавно переглянутих проектів (Recent projects)</description>
+</aim>
+<aim>
+<name> Getting Started </name>
+<description> Спеціально для новачків є блок “Getting Started”</description>
+у якому є необхідні інструкції та туторіали для роботи у режимі емуляції, ISIS та ARES.
+</aim>
+<aim>
+<name> Help </name>
+<description> Для додаткової інформації є блок “Help”</description>
+</aim>
+<aim>
+<name> News </name>
+<description> У блоці “News” є актуальна інформація про нові версії пз та їх переваги</description>
+</aim>
+</aims>

@@ -1,0 +1,33 @@
+body{
+	-ms-align-items: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Times New Roman";
+	background-image: url("./img/11.jpg");
+}
+
+#canvas {
+	display: flex;
+	margin: 0%;
+	border: 2px groove navy;
+	margin-top: 0px;
+	background: #b3d4fc;
+}
+ul {
+	list-style: none;
+}
+
+li a {
+	color: #1d050c;
+	font-weight: 800;
+}
+#logo {
+	display: flex;
+	margin: 0%;
+	margin-left: 40%;
+	width: 300px;
+	height: 230px;
+	align-items: center;
+}
+

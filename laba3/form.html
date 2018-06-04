@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="GIF.js"></script>
+</head>
+<body>
+<header>
+    <img id="logo" alt="" src="./img/atom.png" />
+    <h1>Знайомство із програмним забезпеченням Proteus</h1>
+    <nav class="menu">
+        <ul class="menu-ul">
+            <li><a href="./index.html">MAIN PAGE</a></li><!--MAIN PAGE-->
+            <li><a href="./draganddrop.html">INSTRUMENTS</a></li><!--DRAG AND DROP-->
+            <li><a href="./ajax.html">LOAD ON SERVER</a></li><!--SOME STAFF WITH AJAX-->
+            <li><a href="./canvas.html">TRY PAINT SMTH</a></li><!--CANVAS-->
+            <li><a href="./form.html">REGISTRATION</a></li><!--FORM-->
+        </ul>
+    </nav>
+</header>
+<form action="#" method="POST">
+        <span class="register">
+            <label for="name">Ім'я</label>
+            <input type="text" placeholder="your name" name="name" id="name" required>
+        </span>
+        <span class="register">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="valid e-mail" name="email" id="email" required>
+        </span>
+        <span class="register">
+            <label for="password">Ваш пароль</label>
+            <input type="password" placeholder="pass word" name="password" id="password" required>
+        </span>
+        <span class="register">
+            <label for="confimpass">Підтвердть ваш пароль</label>
+            <input type="password" placeholder="confirm your password" name="confimpass" id="confimpass" required>
+        </span>
+        <span class="register">
+            <label for="photo">Завантажте ваше фото</label>
+            <input type="file" id="photo" multiple="multiple" accept="image/*" />
+        </span>
+        <span class="register">
+            <label for="video">Завантажте ваше відео</label>
+            <input type="file" id="video" multiple="single" accept="video/*" />
+        </span>
+        <input type="submit" class="sub" id="sub">
+    <p><canvas id="canvasGIF" ></canvas></p>
+</form>
+<!---->
+
+<script src="form.js"></script>
+</body>
+</html>
