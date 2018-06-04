@@ -1,0 +1,13 @@
+.test {
+    width: 700px;
+    height: 500px;
+    background: #c93b81;
+    margin: 20px;
+    alignment: left;
+}
+body {
+    font-size: 20px;
+    font-family: "Times New Roman";
+    background-image: url("fon.jpg");
+    color: #85132a;
+}
